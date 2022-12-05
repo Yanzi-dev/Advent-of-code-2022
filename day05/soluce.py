@@ -13,7 +13,7 @@ def main():
             break
     handle.seek(0)
 
-    # reads crates and instruction
+    # reads crates and instructions
     crates_read = list()
     instructions = list()
     for line in handle:
