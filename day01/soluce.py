@@ -1,6 +1,6 @@
 def main():
-  # init
-  hand = open('input.txt')
+    # init
+    hand = open('input.txt')
     i = 0
     calories = dict()
     for line in hand:
